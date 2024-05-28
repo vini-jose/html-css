@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+.pai {
+    width: 50rem; /* 500px */
+    height: 100vh;
+    background-color: yellow;
+    overflow: hidden;
+    /*font-size: 50px;*/
+}
+
+.pai > div {
+    width: 50%;
+    height: 50rem;
+    background-color: blue;
+}
+
+.color-one {
+    background-color: turquoise;
+}
+
+.color-two {
+    background-color: violet;
+}
+
+p {
+    font-size: 2vmax;
+    /*font-size: 2em; O em funciona quase da mesma forma que o rem, porém ao invés de ser igual ao font-size definido no :root ela é igual ao font-size do elemento em que ela for utilizado 
+    font-size: 1.6rem; O rem é o root font-size, ou seja, 1rem é igual ao tamanho total do font-size do elemento raiz e, na ausência desse, o tamanho inicial da propriedade font-size. Ambos valores serão 16px a não ser que o usuário personalize o tamanho da fonte do sistema ou utilize zoom.*/
+
+}
